@@ -1,4 +1,4 @@
-// the loader animation that I have made works when code it active, however is makes the rest of the website stop working
+// the loader animation that I have made works when code it active, however is makes the rest of the website stop working, I cant figure out why.
 
 /*   // loader
 document.addEventListener("DOMContentLoaded", function () {

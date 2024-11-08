@@ -1,0 +1,51 @@
+/* styleing for home page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #4b8858;
+    overflow: hidden;
+    background-image: url(./images/Background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* This property creates a new stacking context */
+    width: 1000px;
+    height: 600px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 30px #dbdbdb;
+}
+
+.content button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 1; /* new stacking context */
+    animation: animate 1s ease-in-out 0.6 1 forwards;
+}
+
+@keyframes animate {
+    from{
+        opacity: 0; /* new stacking context */
+        transform: translate(0, 100px); /* new stacking context */
+        filter: blur(33px); /* new stacking context */
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0); /* new stacking context */
+        filter: blur(0); /* new stacking context */
+    }
+}
+
+
