@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Rolex Shop</title>
+    <link rel="stylesheet" href="gallery.css">
+    
+
+</head>
+<body>
+    
+    <!--popup-->
+    <div class="popup">
+        <!--top bar-->
+        <div class="top-bar">
+            <p class="image-name">img1.png</p>
+            <span class="close-btn"></span>
+        </div>
+        <!--arrows-->
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        <!--image-->
+        <img src="./images/g1.jpg" class="large-image" alt="">
+        <!--image-index-->
+        <h1 class="index">01</h1>
+    </div>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="./images/g1.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="./images/g2.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="./images/g3.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="./images/g4.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="./images/g5.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="./images/g6.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="./images/g7.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="./images/g8.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="./images/g9.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="./images/g10.jpg" alt=""></div>
+        </div>
+    </div>
+    
+    <a href="index.html">   
+        <button>Back</button>
+    </a>
+
+    <script src="gsap.min.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
